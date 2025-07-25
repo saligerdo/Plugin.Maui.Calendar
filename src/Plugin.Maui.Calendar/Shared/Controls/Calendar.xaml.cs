@@ -2275,6 +2275,7 @@ public partial class Calendar : ContentView, IDisposable
 			dayModel.TodayFillColor = TodayFillColor;
 			dayModel.DisabledColor = DisabledDayColor;
 
+
 			AssignIndicatorColors(ref dayModel);
 		}
 	}
@@ -2490,6 +2491,7 @@ public partial class Calendar : ContentView, IDisposable
 			else
 			{
 				dayModel.EventColors = [dayModel.IsSelected ? dayModel.EventIndicatorSelectedColor : dayModel.EventIndicatorColor];
+				
 			}
 		}
 		else
